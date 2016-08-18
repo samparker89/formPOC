@@ -1,7 +1,10 @@
-import { Component } from '@angular/core';
-
+import { Component }         from '@angular/core';
+// Add the RxJS Observable operators we need in this app.
+import './rxjs-operators';
 @Component({
-    selector: 'my-app',
-    template: '<h1>My First Angular 2 App</h1>'
+  selector: 'my-app',
+  template: `
+    <form-list></form-list>
+  `
 })
 export class AppComponent { }
