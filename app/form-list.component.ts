@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { FormService } from './form.service';
 
-import { FormEntry } from './formentry.ts';
+import { FormEntry } from './formentry';
 
 @Component({
   selector: 'form-list',

@@ -2,4 +2,5 @@
 <div *ngFor="let form of formentries">
   <label>{{form.label}}</label>
   <input type="{{form.field}}" />
+  {{form.formchild.length}}
 </div>

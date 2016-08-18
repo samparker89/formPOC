@@ -1,7 +1,25 @@
 {
   "property": [
-    {"field":"text",  "label":"Label 1"},
-    {"field":"radio", "label":"Label 2"},
-    {"field":"checkbox", "label":"Label 3"}
+    {
+      "field":"text",
+      "label":"Label 1",
+      "formchild": {
+        "length": 3
+      }
+    },
+    {
+      "field":"radio",
+      "label":"Label 2",
+      "formchild": {
+        "length": 3
+      }
+    },
+    {
+      "field":"checkbox",
+      "label":"Label 3",
+      "formchild": {
+        "length": 3
+      }
+    }
   ]
 }
